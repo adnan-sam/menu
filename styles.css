@@ -1,0 +1,120 @@
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url('image/bg2.jpg');
+        
+    }
+
+/*logo styling*/
+.left{
+        border: 5px white;
+        background-color: black;
+        display: block;
+        top: 1px;
+        height: 70px;
+        width: 400px;
+        color: white;
+        border-radius: 25px;
+        padding:0px 5px 5px 4px;
+        margin: auto;
+        
+        float: left;
+       /* font-family: 'Concert One', cursive;*/
+        
+        
+
+    }
+
+    /*logo*/
+    .left img{
+        width:50px;
+        height:50px;
+    }
+    #l2
+    {
+        top: 10px;
+    }
+    
+   
+    /*selecting between menu and your collections*/
+    .first{
+        position:absolute;
+        display:inline-block;
+        margin-left: 70rem;
+
+    }
+    .ch{
+        display: inline-block;
+        /*font-family: 'Patrick Hand', cursive;*/
+        
+
+    }
+    
+    /* .ch li{
+
+        display: inline-block;
+        color: wheat;
+    }
+    
+    .ch li a{
+        color: wheat;
+        text-decoration: none;
+        padding: 40px;
+    }
+
+    .ch li a:hover{
+        color: rgb(76, 133, 238);
+        text-decoration: underline;
+        padding: 40px;
+    } */
+    #ch1{
+        padding: 40px;
+        display: flex;
+    }
+    #ch2{
+        padding: 40px;
+        display: flex;
+    }
+
+
+
+    /*filling up the books*/
+    .books{
+        /* display: inline block; */
+        border: 2px;
+        color:wheat;
+    box-sizing:content-box;
+    display: flex;
+  
+
+    }
+    .buse {
+        padding: 50px;
+    }
+    .box{
+        margin: 50px auto;
+  /* box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3); */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+    }
+    
+    .books img:hover, .books button#bt1:hover{
+        color: rgb(41, 132, 211);
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    #bt1{
+         margin: 20px;
+         padding: 20px 20px 20px 20px;
+         border-radius: 15px;
+         cursor: pointer;
+         font-family: cursive;
+         text-decoration: wavy;
+    }
+    #mg{
+        border: 3px;
+        border-color: black;
+        background-color: aliceblue;
+    }
